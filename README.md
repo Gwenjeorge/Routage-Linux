@@ -9,9 +9,9 @@ Le réseau est composé de 4 réseaux :
 * 192.168.3.0/24
 * 10.0.0.0/24 (entre les routeurs)  
 
-Le routage a été configuré dans les trois postes Debian faisant office de routers (R1, R2, R3) :
-Décommenter `net.ipv4.ip_forward=1` dans `/etc/sysctl.conf` 
-Puis `sysctl -p` pour opérer le changement  
+Le routage a été configuré dans les trois postes Debian faisant office de routers (R1, R2, R3) :  
+Décommenter `net.ipv4.ip_forward=1` dans `/etc/sysctl.conf`   
+Puis `sysctl -p` pour opérer le changement    
 
 Les configurations sont telles que suit : 
 
