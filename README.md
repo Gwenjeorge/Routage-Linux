@@ -1,4 +1,7 @@
-# Routage-Linux
+# Routage-Linux sur GNS3
+
+![Network](./GNSNetwork1.png)
+
 
 Le réseau est composé de 4 réseaux :
 * 192.168.1.0/24
@@ -63,4 +66,3 @@ iface ens4 inet static
 Exemple de test : traceroute du réseau 2 vers le réseau 1 et ping du réseau 2 vers le réseau 3
 ![Test](./DEB3Test.png)
 
-![Network](./GNSNetwork1.png)
