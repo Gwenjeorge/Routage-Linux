@@ -35,7 +35,7 @@ iface ens4 inet static
     netmask 255.255.255.0
 
 iface ens5 inet static
-    address 10.0.0.1
+    address 10.0.0.2
     netmask 255.255.255.0
     
 up ip route add 192.168.1.0/24 via 10.0.0.1
@@ -48,7 +48,7 @@ iface ens4 inet static
     netmask 255.255.255.0
 
 iface ens5 inet static
-    address 10.0.0.1
+    address 10.0.0.3
     netmask 255.255.255.0
     
 up ip route add 192.168.2.0/24 via 10.0.0.2
